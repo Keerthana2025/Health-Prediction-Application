@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Health Prediction</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="
+background-image:url('/static/images/bg.avif');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;">
+
+<div class="container mt-4 bg-white p-4 rounded shadow">
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+
+    <h2>
+         PATIENT RECORDS
+        </h2>
+
+    <div>
+
+        <a href="/add" class="btn btn-success">
+            Add Patient
+        </a>
+
+    </div>
+
+</div>
+
+<form method="GET" action="/" class="mb-3">
+
+    <div class="input-group">
+
+        <input
+            type="text"
+            name="search"
+            class="form-control"
+            placeholder="Search Patient by Name">
+
+        <button class="btn btn-primary">
+            Search
+        </button>
+
+        <a href="/" class="btn btn-secondary">
+            Reset
+        </a>
+
+    </div>
+
+</form>
+
+<table class="table table-bordered table-striped">
+
+<thead>
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Glucose</th>
+    <th>Haemoglobin</th>
+    <th>cholesterol</th>
+    <th>Remarks</th>
+    <th>Actions</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for patient in patients %}
+
+<tr>
+
+    <td>{{ patient.fullname }}</td>
+    <td>{{ patient.email }}</td>
+    <td>{{ patient.glucose }}</td>
+    <td>{{ patient.haemoglobin }}</td>
+    <td>{{ patient.cholesterol }}</td>
+    <td>{{ patient.remarks }}</td>
+
+    <td>
+
+        <a href="/edit/{{ patient.id }}"
+           class="btn btn-warning mb-1">
+            Edit Patient
+        </a>
+
+        <a href="/delete/{{ patient.id }}"
+           class="btn btn-danger mb-1"
+           onclick="return confirm('Are you sure you want to delete this patient?')">
+            Delete Patient
+        </a>
+
+    </td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+<hr>
+
+<h4 class="fw-bold text-primary">
+    Recommended Diet Charts
+</h4>
+
+{% for patient in patients %}
+
+<div class="card mb-2 p-3">
+
+    <strong>{{ patient.fullname }}</strong>
+
+    <p>
+        Health Status:
+        <span class="badge bg-info">
+            {{ patient.remarks }}
+        </span>
+    </p>
+
+    {% if patient.remarks == "Healthy" %}
+
+        <a href="{{ url_for('static', filename='diet/healthy.pdf') }}"
+           target="_blank"
+           class="btn btn-success">
+            Download Healthy Diet Chart
+        </a>
+
+    {% elif patient.remarks == "Diabetes Risk" %}
+
+        <a href="{{ url_for('static', filename='diet/diabetic_risk.pdf') }}"
+           target="_blank"
+           class="btn btn-warning">
+            Download Diabetes Diet Chart
+        </a>
+
+    {% elif patient.remarks == "Anemia Risk" %}
+
+        <a href="{{ url_for('static', filename='diet/anemia_risk.pdf') }}"
+           target="_blank"
+           class="btn btn-danger">
+            Download Anemia Diet Chart
+        </a>
+
+    {% elif patient.remarks == "Heart Disease Risk" %}
+
+        <a href="{{ url_for('static', filename='diet/heart_disease_risk.pdf') }}"
+           target="_blank"
+           class="btn btn-primary">
+            Download Heart Disease Diet Chart
+        </a>
+
+    {% endif %}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<script src='https://cdn.jotfor.ms/agent/embedjs/019ecb97a9517b74a97f712f6c276384c047/embed.js'>
+</script>
+
+</body>
+</html>

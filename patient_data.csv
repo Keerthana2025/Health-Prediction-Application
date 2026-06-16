@@ -1,0 +1,201 @@
+Glucose,Haemoglobin,Cholesterol,Condition
+93,13,151,Healthy
+82,7,199,Anemia Risk
+165,11,304,Heart Disease Risk
+75,8,140,Anemia Risk
+176,12,340,Heart Disease Risk
+180,10,310,Diabetes Risk
+234,11,289,Diabetes Risk
+206,10,305,Heart Disease Risk
+100,13,151,Healthy
+202,14,233,Diabetes Risk
+92,13,172,Healthy
+91,9,159,Anemia Risk
+185,11,322,Heart Disease Risk
+163,12,244,Heart Disease Risk
+175,10,243,Heart Disease Risk
+100,14,200,Healthy
+93,15,167,Healthy
+155,11,266,Heart Disease Risk
+81,13,159,Healthy
+169,13,244,Heart Disease Risk
+86,9,150,Anemia Risk
+188,12,310,Heart Disease Risk
+83,9,182,Anemia Risk
+210,10,250,Diabetes Risk
+186,10,227,Diabetes Risk
+91,7,169,Anemia Risk
+83,9,140,Anemia Risk
+91,15,163,Healthy
+89,13,204,Healthy
+92,13,185,Healthy
+218,10,286,Heart Disease Risk
+218,11,243,Heart Disease Risk
+106,15,160,Healthy
+88,16,190,Healthy
+155,10,300,Heart Disease Risk
+191,12,296,Heart Disease Risk
+242,10,317,Diabetes Risk
+164,11,262,Heart Disease Risk
+234,11,255,Diabetes Risk
+179,10,243,Heart Disease Risk
+182,14,290,Diabetes Risk
+73,5,174,Anemia Risk
+169,10,350,Heart Disease Risk
+249,11,312,Diabetes Risk
+79,6,168,Anemia Risk
+210,10,265,Heart Disease Risk
+100,14,184,Healthy
+90,13,155,Healthy
+82,14,208,Healthy
+86,16,164,Healthy
+98,16,207,Healthy
+103,14,160,Healthy
+194,12,259,Diabetes Risk
+76,9,156,Anemia Risk
+107,13,198,Healthy
+90,8,193,Anemia Risk
+170,10,292,Heart Disease Risk
+211,11,244,Diabetes Risk
+166,10,293,Heart Disease Risk
+174,11,245,Heart Disease Risk
+192,13,280,Heart Disease Risk
+74,7,196,Anemia Risk
+237,10,251,Diabetes Risk
+96,9,185,Anemia Risk
+94,15,201,Healthy
+71,9,145,Anemia Risk
+87,14,182,Healthy
+235,12,274,Diabetes Risk
+87,14,197,Healthy
+155,11,286,Heart Disease Risk
+232,13,313,Diabetes Risk
+109,14,193,Healthy
+78,6,182,Anemia Risk
+84,9,185,Anemia Risk
+188,10,262,Diabetes Risk
+76,7,153,Anemia Risk
+84,9,176,Anemia Risk
+260,12,301,Diabetes Risk
+160,11,305,Heart Disease Risk
+103,15,197,Healthy
+101,16,188,Healthy
+90,13,164,Healthy
+96,13,185,Healthy
+87,13,174,Healthy
+78,5,140,Anemia Risk
+94,13,209,Healthy
+180,11,268,Heart Disease Risk
+215,13,247,Diabetes Risk
+105,14,194,Healthy
+89,5,166,Anemia Risk
+79,9,153,Anemia Risk
+205,12,271,Diabetes Risk
+208,10,263,Diabetes Risk
+256,13,287,Diabetes Risk
+192,12,342,Heart Disease Risk
+73,5,187,Anemia Risk
+260,10,249,Diabetes Risk
+201,11,310,Heart Disease Risk
+80,6,180,Anemia Risk
+101,14,199,Healthy
+248,13,237,Diabetes Risk
+212,14,221,Diabetes Risk
+208,11,279,Heart Disease Risk
+204,10,232,Diabetes Risk
+190,12,317,Heart Disease Risk
+98,16,173,Healthy
+153,10,334,Heart Disease Risk
+83,13,187,Healthy
+202,13,335,Heart Disease Risk
+238,10,312,Diabetes Risk
+205,9,325,Heart Disease Risk
+183,9,253,Heart Disease Risk
+159,12,293,Heart Disease Risk
+109,13,188,Healthy
+209,14,248,Diabetes Risk
+174,12,303,Heart Disease Risk
+168,12,256,Heart Disease Risk
+239,11,229,Diabetes Risk
+236,14,232,Diabetes Risk
+248,11,236,Diabetes Risk
+214,12,234,Diabetes Risk
+98,6,156,Anemia Risk
+185,9,338,Heart Disease Risk
+150,11,276,Heart Disease Risk
+82,16,174,Healthy
+186,14,221,Diabetes Risk
+78,6,187,Anemia Risk
+231,12,233,Diabetes Risk
+192,9,344,Heart Disease Risk
+78,8,148,Anemia Risk
+191,11,241,Diabetes Risk
+82,14,164,Healthy
+207,13,227,Diabetes Risk
+93,9,143,Anemia Risk
+194,14,316,Diabetes Risk
+107,15,188,Healthy
+91,7,172,Anemia Risk
+86,7,199,Anemia Risk
+164,9,328,Heart Disease Risk
+253,14,280,Diabetes Risk
+92,8,149,Anemia Risk
+100,5,177,Anemia Risk
+88,13,196,Healthy
+217,13,240,Diabetes Risk
+108,16,159,Healthy
+232,13,281,Diabetes Risk
+244,14,245,Diabetes Risk
+100,16,175,Healthy
+90,16,167,Healthy
+86,13,152,Healthy
+87,6,157,Anemia Risk
+205,11,333,Heart Disease Risk
+211,13,272,Diabetes Risk
+240,14,241,Diabetes Risk
+199,12,317,Diabetes Risk
+227,13,286,Diabetes Risk
+89,15,186,Healthy
+97,6,144,Anemia Risk
+181,11,260,Heart Disease Risk
+200,14,319,Diabetes Risk
+80,5,140,Anemia Risk
+90,9,140,Anemia Risk
+213,14,297,Diabetes Risk
+189,12,281,Heart Disease Risk
+252,10,230,Diabetes Risk
+73,9,155,Anemia Risk
+92,7,155,Anemia Risk
+88,14,165,Healthy
+97,6,165,Anemia Risk
+92,7,153,Anemia Risk
+71,9,170,Anemia Risk
+72,6,163,Anemia Risk
+181,9,285,Heart Disease Risk
+89,5,183,Anemia Risk
+189,14,250,Diabetes Risk
+197,13,310,Heart Disease Risk
+99,5,145,Anemia Risk
+99,5,200,Anemia Risk
+215,12,326,Heart Disease Risk
+198,10,318,Heart Disease Risk
+106,13,201,Healthy
+88,9,142,Anemia Risk
+94,16,167,Healthy
+221,13,222,Diabetes Risk
+85,7,197,Anemia Risk
+84,14,198,Healthy
+91,9,176,Anemia Risk
+79,9,191,Anemia Risk
+205,9,306,Heart Disease Risk
+95,13,198,Healthy
+213,14,317,Diabetes Risk
+93,7,143,Anemia Risk
+101,15,194,Healthy
+210,10,324,Heart Disease Risk
+103,15,165,Healthy
+215,9,289,Heart Disease Risk
+174,12,282,Heart Disease Risk
+110,15,163,Healthy
+247,10,296,Diabetes Risk
+95,8,158,Anemia Risk
