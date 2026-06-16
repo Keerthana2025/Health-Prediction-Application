@@ -1,4 +1,4 @@
-##**AI Powered Health Prediction System**
+**AI Powered Health Prediction System**
 
 A Flask-based web application that predicts health risks using Machine Learning.
 This system enables healthcare providers to manage patient records efficiently while leveraging AI-based predictions to identify potential health risks such as Diabetes, Anemia, and Heart Disease.
