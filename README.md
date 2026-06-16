@@ -73,6 +73,12 @@ The system includes:
 * Cloud Deployment
 * Real-Time Health Monitoring
 
+**Run**
+
+pip install -r requirements.txt
+python model.py
+python app.py
+
 **Developed By**
 Keerthana S
 Tech Graduate
@@ -86,10 +92,4 @@ Passionate about AIML, Data Analytics, and Full-Stack Application Development.
 
 
 
-## Run
 
-pip install -r requirements.txt
-
-python model.py
-
-python app.py
