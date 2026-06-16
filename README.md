@@ -1,4 +1,4 @@
-# AI Health Prediction System
+# AI Powered Health Prediction System
 
 A Flask-based web application that predicts health risks using Machine Learning.
 
